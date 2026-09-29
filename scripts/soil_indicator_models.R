@@ -4,16 +4,6 @@
 # RP1 - Luciano Rivas
 # ============================================================
 
-
-# ------------------------------------------------------------
-# 1. Working directory
-# ------------------------------------------------------------
-
-setwd(
-  "C:/Users/Lucho/RP1/RP1_Rstudio/Research-Project1/Final analysis/analysis_corrections/Clean_scripts"
-)
-
-
 # ------------------------------------------------------------
 # 2. Packages
 # ------------------------------------------------------------
@@ -31,8 +21,7 @@ library(car)
 # 3. File paths
 # ------------------------------------------------------------
 
-input_file <-
-  "processed/final_soil_variables_table_updated.csv"
+input_file <- "data/processed/final_soil_variables_table_updated.csv"
 
 results_dir <-
   "results/soil_indicator_models"
