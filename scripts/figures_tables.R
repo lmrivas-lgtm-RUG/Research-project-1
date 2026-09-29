@@ -6,15 +6,6 @@
 
 
 # ------------------------------------------------------------
-# 1. Working directory
-# ------------------------------------------------------------
-
-setwd(
-  "C:/Users/Lucho/RP1/RP1_Rstudio/Research-Project1/Final analysis/analysis_corrections/Clean_scripts"
-)
-
-
-# ------------------------------------------------------------
 # 2. Packages
 # ------------------------------------------------------------
 
@@ -33,8 +24,7 @@ library(patchwork)
 # 3. File paths
 # ------------------------------------------------------------
 
-data_file <-
-  "processed/final_soil_variables_table_updated.csv"
+data_file <- "data/processed/final_soil_variables_table_updated.csv"
 
 soil_variance_file <-
   "results/soil_indicator_models/soil_indicator_variance_partition.csv"
@@ -63,8 +53,7 @@ pca_eigen_file <-
 mds_file <-
   "results/SHI/shi_mds_scoring_weighting_table.csv"
 
-aes_file <-
-  "C:/Users/Lucho/RP1/RP1_Rstudio/Research-Project1/Previous steps/AES_final_table_2023.csv"
+aes_file <- "data/raw/AES_final_table_2023.csv"
 
 
 # ------------------------------------------------------------
