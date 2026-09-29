@@ -21,8 +21,7 @@ soil_file <- "data/raw/final_soil_variables_table.csv"
 
 fungi_file <- "data/raw/Complete data set - Fungi diversity.csv"
 
-output_file <- "C:/Users/Lucho/RP1/RP1_Rstudio/Research-Project1/Final analysis/analysis_corrections/Clean_scripts/processed/final_soil_variables_table.csv"
-
+output_file <- "data/processed/final_soil_variables_table.csv"
 
 # ------------------------------------------------------------
 # 3. Check input files
