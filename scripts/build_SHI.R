@@ -5,15 +5,6 @@
 
 
 # ------------------------------------------------------------
-# 1. Working directory
-# ------------------------------------------------------------
-
-setwd(
-  "C:/Users/Lucho/RP1/RP1_Rstudio/Research-Project1/Final analysis/analysis_corrections/Clean_scripts"
-)
-
-
-# ------------------------------------------------------------
 # 2. Packages
 # ------------------------------------------------------------
 
@@ -27,9 +18,9 @@ library(tibble)
 # 3. File paths
 # ------------------------------------------------------------
 
-input_file <- "processed/final_soil_variables_table.csv"
+input_file <- "data/processed/final_soil_variables_table.csv"
 
-output_file <- "processed/final_soil_variables_table_updated.csv"
+output_file <- "data/processed/final_soil_variables_table_updated.csv"
 
 results_dir <- "results/SHI"
 
